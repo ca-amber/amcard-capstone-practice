@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'BitcountGridDouble_Cursive-Bold';
+    src: url(fonts/BitcountGridDouble_Cursive-Bold.ttf) format('truetype');
+@font-face {
+    font-family: 'Embedded Font';
+    src: url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet"> ) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+}
+
+body {
+    background-color: blueviolet;
+    color: white;        
+}
+
+h1 {
+    color: yellow; 
+}
+
+h2 {
+    font-family: 'BitcountGridDouble_Cursive-Bold' , sans-serif;
+    font-size: 3em;
+}
+
+h3 {
+    font-family: 'Embedded Font ', sans-serif;
+    font-size: 2em;
+}
